@@ -18,13 +18,13 @@ docker build -t gcp-pubsub-test .
 Example for running a container to pull messages
 
 ```bash
-docker run --rm -ti -e PROJECT={YOUR_PROJECT_ID} -e TOPIC={YOUR_PUBSUB_TOPIC} -e SUB={YOUR_PUBSUB_SUBSCRIPTION} gcp-pubsub-test pull
+docker run --rm -ti -e PROJECT={YOUR_PROJECT_ID} -e TOPIC={YOUR_PUBSUB_TOPIC} -e SUB={YOUR_PUBSUB_SUBSCRIPTION} thefoo/gcp-pubsub-test pull
 ```
 
 Example for running a container to push messages
 
 ```bash
-docker run --rm -ti -e PROJECT={YOUR_PROJECT_ID} -e TOPIC={YOUR_PUBSUB_TOPIC} -e SUB={YOUR_PUBSUB_SUBSCRIPTION} gcp-pubsub-test pull
+docker run --rm -ti -e PROJECT={YOUR_PROJECT_ID} -e TOPIC={YOUR_PUBSUB_TOPIC} -e SUB={YOUR_PUBSUB_SUBSCRIPTION} thefoo/gcp-pubsub-test pull
 ```
 
 ### Environment variables
